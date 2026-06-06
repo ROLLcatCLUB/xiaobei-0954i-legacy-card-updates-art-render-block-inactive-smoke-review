@@ -1,0 +1,81 @@
+{
+  "stage_id": "0954I_LEGACY_CARD_UPDATES_ART_RENDER_BLOCK_INACTIVE_SMOKE",
+  "package_type": "github_review_audit_package",
+  "final_status": "LEGACY_CARD_UPDATES_ART_RENDER_BLOCK_INACTIVE_SMOKE_PASS",
+  "recommended_next_stage": "0954J_LEGACY_CARD_UPDATES_ART_RENDER_BLOCK_INACTIVE_SEAL",
+  "zip_path": "docs/audit_packages/legacy_card_updates_to_art_render_block_inactive_smoke_0954I.zip",
+  "zip_self_entry_count": 14,
+  "self_reference_policy": "manifest entry uses SELF_REFERENTIAL_MANIFEST; validator checks zip/manifest strictly, path safety, forbidden file patterns, and text worktree newline equivalence",
+  "files": [
+    {
+      "path": "docs/audit/legacy_card_updates_to_art_render_block_inactive_smoke_0954I_report.md",
+      "sha256": "e53593976157cec38b72885138f1808e2a63d48a28e389bd89274853cf70433d",
+      "size_bytes": 2127
+    },
+    {
+      "path": "docs/audit/legacy_card_updates_to_art_render_block_inactive_smoke_0954I_result.json",
+      "sha256": "d4be3ebabfdb881497a0d552fe8537340d64514d69b83f9d59abf103377f8e04",
+      "size_bytes": 1631
+    },
+    {
+      "path": "docs/audit/legacy_card_updates_to_art_render_block_inactive_smoke_0954I_checklist.json",
+      "sha256": "2c9618dbc226589f5b967996178e21e876a0e0b4960f8ee94b13bd1c5d38a458",
+      "size_bytes": 1693
+    },
+    {
+      "path": "scripts/validate_legacy_card_updates_to_art_render_block_inactive_smoke_0954I.py",
+      "sha256": "9758ded39126462128f206b81167f9eb1d1157a3c602fd94026d08d552a278e4",
+      "size_bytes": 15395
+    },
+    {
+      "path": "docs/audit_packages/legacy_card_updates_to_art_render_block_inactive_smoke_0954I_manifest.json",
+      "sha256": "SELF_REFERENTIAL_MANIFEST",
+      "size_bytes": -1
+    },
+    {
+      "path": "compatibility/card_updates/legacy_card_updates_art_render_block_inactive_apply_0954H.json",
+      "sha256": "7fc296684895fcf8b815e2bc618bddd7d77b4b50a8af423c06b324e0a0f2c12b",
+      "size_bytes": 41603
+    },
+    {
+      "path": "compatibility/card_updates/legacy_card_updates_art_render_block_inactive_apply_manifest_0954H.json",
+      "sha256": "02fbb15279485064487612edea36ae09da548b6a7225c5c8574e96b957ac1d42",
+      "size_bytes": 1177
+    },
+    {
+      "path": "subject_packs/art/render_plans/inactive_art_render_plan_0954H_qinglv_legacy_compat.json",
+      "sha256": "e14b8d50fb3f841b554a62ded1bf62f535dea9aa2a889355d93765144a76c69c",
+      "size_bytes": 1508
+    },
+    {
+      "path": "docs/audit/legacy_card_updates_to_art_render_block_inactive_apply_0954H_result.json",
+      "sha256": "9c065ae66e24082ffdee32ff177df2c486050f82e2038b20feb450eba2f21921",
+      "size_bytes": 1831
+    },
+    {
+      "path": "docs/audit_packages/legacy_card_updates_to_art_render_block_inactive_apply_0954H_manifest.json",
+      "sha256": "e986a3a2e7bcb1ff4d826d3b3d9f24824648da370747c4d3a072f3fa102701b7",
+      "size_bytes": 3775
+    },
+    {
+      "path": "frontend/workbench/fixtures/agent_output_existing_workbench_fixture_0952F_R1.js",
+      "sha256": "bf7d61c84e52ab54688c3c4a84395608d49539c831fdc2fb66712a11d1222632",
+      "size_bytes": 6610
+    },
+    {
+      "path": "frontend/workbench/fixtures/provider_candidate_patch_0952G_R1.js",
+      "sha256": "57d07fffb0932a740a856024a77cce34b8b5fc9ff9490c2ca9b6a5193e3b3d11",
+      "size_bytes": 2533
+    },
+    {
+      "path": "platform_core/render_blocks/render_block_type_schema_0954C.json",
+      "sha256": "5362677528b18134e717b3c242b7d51f4233c83ce722402702ad41ceb913e7cc",
+      "size_bytes": 2524
+    },
+    {
+      "path": "subject_packs/art/topic_contexts/qinglv_china_color_topic_context_0954E.json",
+      "sha256": "d191f56c9cf7473780526c525d297d001fd394a79b5f475244ad2bdd0050b173",
+      "size_bytes": 722
+    }
+  ]
+}

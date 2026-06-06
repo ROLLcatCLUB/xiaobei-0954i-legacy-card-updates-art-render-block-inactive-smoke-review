@@ -1,0 +1,81 @@
+{
+  "stage_id": "0954H_LEGACY_CARD_UPDATES_ART_RENDER_BLOCK_INACTIVE_APPLY",
+  "package_type": "github_review_audit_package",
+  "final_status": "LEGACY_CARD_UPDATES_ART_RENDER_BLOCK_INACTIVE_APPLY_PASS",
+  "recommended_next_stage": "0954I_LEGACY_CARD_UPDATES_ART_RENDER_BLOCK_INACTIVE_SMOKE",
+  "zip_path": "docs/audit_packages/legacy_card_updates_to_art_render_block_inactive_apply_0954H.zip",
+  "zip_self_entry_count": 14,
+  "self_reference_policy": "manifest entry uses SELF_REFERENTIAL_MANIFEST; validator checks zip/manifest strictly, path safety, forbidden file patterns, and text worktree newline equivalence",
+  "files": [
+    {
+      "path": "compatibility/card_updates/legacy_card_updates_art_render_block_inactive_apply_0954H.json",
+      "sha256": "7fc296684895fcf8b815e2bc618bddd7d77b4b50a8af423c06b324e0a0f2c12b",
+      "size_bytes": 41603
+    },
+    {
+      "path": "compatibility/card_updates/legacy_card_updates_art_render_block_inactive_apply_manifest_0954H.json",
+      "sha256": "02fbb15279485064487612edea36ae09da548b6a7225c5c8574e96b957ac1d42",
+      "size_bytes": 1177
+    },
+    {
+      "path": "subject_packs/art/render_plans/inactive_art_render_plan_0954H_qinglv_legacy_compat.json",
+      "sha256": "e14b8d50fb3f841b554a62ded1bf62f535dea9aa2a889355d93765144a76c69c",
+      "size_bytes": 1508
+    },
+    {
+      "path": "docs/audit/legacy_card_updates_to_art_render_block_inactive_apply_0954H_result.json",
+      "sha256": "9c065ae66e24082ffdee32ff177df2c486050f82e2038b20feb450eba2f21921",
+      "size_bytes": 1831
+    },
+    {
+      "path": "docs/audit/legacy_card_updates_to_art_render_block_inactive_apply_0954H_report.md",
+      "sha256": "02b3ba87c3f33fdf5b1cdd027303cd97fff7a4e7774da8861475231cd77f14e1",
+      "size_bytes": 3009
+    },
+    {
+      "path": "docs/audit/legacy_card_updates_to_art_render_block_inactive_apply_0954H_checklist.json",
+      "sha256": "82d92b30fd990b682b0e290b5a3714d1275bbc90d21842cfcdfb1d12a83a6042",
+      "size_bytes": 2053
+    },
+    {
+      "path": "scripts/validate_legacy_card_updates_to_art_render_block_inactive_apply_0954H.py",
+      "sha256": "9af404b72fd78a9e2d4d6cb7814fde298edf04c4ddc868b3fa152e77a5d35e37",
+      "size_bytes": 18417
+    },
+    {
+      "path": "docs/audit_packages/legacy_card_updates_to_art_render_block_inactive_apply_0954H_manifest.json",
+      "sha256": "SELF_REFERENTIAL_MANIFEST",
+      "size_bytes": -1
+    },
+    {
+      "path": "compatibility/card_updates/legacy_card_updates_to_art_render_block_contract_0954G.json",
+      "sha256": "406f3a8d108b9460649408abd645301b43b9c1ccddecffb6c674c0d569fa1fc2",
+      "size_bytes": 2135
+    },
+    {
+      "path": "compatibility/card_updates/legacy_card_updates_sample_output_0954G.json",
+      "sha256": "7fe67c07d9adc593d47b72ca2c5124f0dfb567d656cf1219241ed6415feb9944",
+      "size_bytes": 15218
+    },
+    {
+      "path": "frontend/workbench/fixtures/agent_output_existing_workbench_fixture_0952F_R1.js",
+      "sha256": "bf7d61c84e52ab54688c3c4a84395608d49539c831fdc2fb66712a11d1222632",
+      "size_bytes": 6610
+    },
+    {
+      "path": "frontend/workbench/fixtures/provider_candidate_patch_0952G_R1.js",
+      "sha256": "57d07fffb0932a740a856024a77cce34b8b5fc9ff9490c2ca9b6a5193e3b3d11",
+      "size_bytes": 2533
+    },
+    {
+      "path": "subject_packs/art/topic_contexts/qinglv_china_color_topic_context_0954E.json",
+      "sha256": "d191f56c9cf7473780526c525d297d001fd394a79b5f475244ad2bdd0050b173",
+      "size_bytes": 722
+    },
+    {
+      "path": "platform_core/render_blocks/render_block_type_schema_0954C.json",
+      "sha256": "5362677528b18134e717b3c242b7d51f4233c83ce722402702ad41ceb913e7cc",
+      "size_bytes": 2524
+    }
+  ]
+}

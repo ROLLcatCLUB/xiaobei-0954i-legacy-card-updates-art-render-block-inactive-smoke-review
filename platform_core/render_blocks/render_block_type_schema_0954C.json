@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "xiaobei.render_block_type_schema_0954C",
+  "title": "Xiaobei Render Block 0954C",
+  "type": "object",
+  "required": [
+    "block_id",
+    "block_type",
+    "title",
+    "content",
+    "actions",
+    "safety"
+  ],
+  "properties": {
+    "block_id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[A-Za-z0-9_-]+$"
+    },
+    "block_type": {
+      "type": "string",
+      "enum": [
+        "heading_block",
+        "paragraph_block",
+        "list_block",
+        "table_block",
+        "field_group_block",
+        "evidence_block",
+        "review_gate_block",
+        "card_block",
+        "legacy_card_block",
+        "candidate_patch_block",
+        "action_bar_block",
+        "status_summary_block"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": [
+        "object",
+        "array",
+        "string",
+        "number",
+        "boolean",
+        "null"
+      ]
+    },
+    "actions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "action_id",
+          "label"
+        ],
+        "properties": {
+          "action_id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "enabled": {
+            "type": "boolean"
+          },
+          "requires_teacher_confirmation": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "source": {
+      "type": "object"
+    },
+    "status": {
+      "type": "string"
+    },
+    "safety": {
+      "type": "object",
+      "required": [
+        "raw_html_allowed",
+        "script_allowed",
+        "inline_event_handler_allowed",
+        "provider_call_allowed",
+        "backend_call_allowed",
+        "memory_write_allowed",
+        "feishu_writeback_allowed"
+      ],
+      "properties": {
+        "raw_html_allowed": {
+          "const": false
+        },
+        "script_allowed": {
+          "const": false
+        },
+        "inline_event_handler_allowed": {
+          "const": false
+        },
+        "provider_call_allowed": {
+          "const": false
+        },
+        "backend_call_allowed": {
+          "const": false
+        },
+        "memory_write_allowed": {
+          "const": false
+        },
+        "feishu_writeback_allowed": {
+          "const": false
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,20 @@
+{
+  "stage_id": "0954E_ART_SUBJECT_PACK_INACTIVE_APPLY",
+  "module": "art_topic_contexts",
+  "topic_context": "qinglv_china_color",
+  "label": "青绿中国色",
+  "inactive_apply": true,
+  "runtime_connected": false,
+  "textbook_context": "苏少版教材语境",
+  "visual_context": {
+    "framing": "长卷取景",
+    "color_materials": ["石青", "石绿", "藤黄", "赭石"],
+    "color_rule": "远淡近浓"
+  },
+  "tool_context": ["线稿画板", "作品提交", "高光展厅", "过程性评价"],
+  "rubric_context": ["构图", "色彩", "材料", "技法", "创意"],
+  "compatibility_sources": {
+    "legacy_0952f_cards": "legacy_card_block",
+    "legacy_0952g_candidate_patch": "candidate_patch_block"
+  }
+}

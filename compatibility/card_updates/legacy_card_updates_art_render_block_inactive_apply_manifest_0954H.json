@@ -1,0 +1,24 @@
+{
+  "stage_id": "0954H_LEGACY_CARD_UPDATES_ART_RENDER_BLOCK_INACTIVE_APPLY",
+  "stage_type": "legacy_card_updates_art_render_block_inactive_apply_only",
+  "previous_stage": "0954G_LEGACY_CARD_UPDATES_TO_ART_RENDER_BLOCK_COMPATIBILITY_CONTRACT",
+  "previous_status": "LEGACY_CARD_UPDATES_ART_RENDER_BLOCK_COMPAT_CONTRACT_PASS",
+  "asset_type": "inactive_apply_manifest",
+  "files": [
+    "compatibility/card_updates/legacy_card_updates_art_render_block_inactive_apply_0954H.json",
+    "subject_packs/art/render_plans/inactive_art_render_plan_0954H_qinglv_legacy_compat.json"
+  ],
+  "legacy_card_block_count": 12,
+  "candidate_patch_block_count": 1,
+  "review_gate_block_count": 1,
+  "status_summary_block_count": 1,
+  "inactive_art_render_plan_count": 1,
+  "actions_inert_descriptors_only": true,
+  "compatibility_runtime_imported": false,
+  "component_grid_behavior_changed": false,
+  "provider_called": false,
+  "legacy_0952f_files_moved": false,
+  "legacy_0952g_files_moved": false,
+  "final_status": "LEGACY_CARD_UPDATES_ART_RENDER_BLOCK_INACTIVE_APPLY_PASS",
+  "recommended_next_stage": "0954I_LEGACY_CARD_UPDATES_ART_RENDER_BLOCK_INACTIVE_SMOKE"
+}

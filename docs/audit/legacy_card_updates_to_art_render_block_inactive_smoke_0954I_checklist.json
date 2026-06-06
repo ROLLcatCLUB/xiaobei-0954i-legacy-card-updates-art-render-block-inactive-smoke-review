@@ -1,0 +1,50 @@
+{
+  "stage_id": "0954I_LEGACY_CARD_UPDATES_ART_RENDER_BLOCK_INACTIVE_SMOKE",
+  "checklist": [
+    {
+      "id": "inactive_apply_asset_loaded",
+      "status": "PASS",
+      "evidence": "0954H inactive apply JSON is read successfully by validator."
+    },
+    {
+      "id": "block_counts_verified",
+      "status": "PASS",
+      "evidence": "12 legacy_card_block entries plus one candidate_patch_block, one review_gate_block, and one status_summary_block are required."
+    },
+    {
+      "id": "inactive_render_plan_verified",
+      "status": "PASS",
+      "evidence": "inactive_art_render_plan_0954H_qinglv_legacy_compat is present and inactive."
+    },
+    {
+      "id": "actions_inert_verified",
+      "status": "PASS",
+      "evidence": "All action descriptors must have enabled=false and executes_runtime=false."
+    },
+    {
+      "id": "source_provider_flag_bounded",
+      "status": "PASS",
+      "evidence": "provider_called_in_source_fixture=true is accepted only as 0952G source metadata; 0954I provider_called=false."
+    },
+    {
+      "id": "runtime_boundaries_verified",
+      "status": "PASS",
+      "evidence": "compatibility_runtime_imported=false and component_grid_behavior_changed=false are checked."
+    },
+    {
+      "id": "legacy_fixtures_not_moved",
+      "status": "PASS",
+      "evidence": "0952F and 0952G fixture paths remain read-only source files."
+    },
+    {
+      "id": "static_checks",
+      "status": "PASS",
+      "evidence": "py_compile and node --check on fixtures are required."
+    },
+    {
+      "id": "zip_manifest_aligned",
+      "status": "PASS",
+      "evidence": "ZIP clean paths and manifest/ZIP bidirectional parity are checked."
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+﻿*.md binary
+*.json binary
+*.py binary
+*.js binary
+*.zip binary

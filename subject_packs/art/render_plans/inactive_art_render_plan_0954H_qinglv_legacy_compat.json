@@ -1,0 +1,43 @@
+{
+  "plan_id": "inactive_art_render_plan_0954H_qinglv_legacy_compat",
+  "subject_pack": "art",
+  "topic_context": "qinglv_china_color",
+  "render_blocks": [
+    "legacy_card_block[]",
+    "candidate_patch_block",
+    "review_gate_block",
+    "status_summary_block"
+  ],
+  "output_templates": [
+    "lesson_design",
+    "task_sheet",
+    "ppt_outline",
+    "board_design",
+    "big_screen_flow",
+    "assessment_table",
+    "artwork_showcase_plan"
+  ],
+  "runtime_connected": false,
+  "component_grid_behavior_changed": false,
+  "stage_id": "0954H_LEGACY_CARD_UPDATES_ART_RENDER_BLOCK_INACTIVE_APPLY",
+  "stage_type": "legacy_card_updates_art_render_block_inactive_apply_only",
+  "source_apply_asset": "compatibility/card_updates/legacy_card_updates_art_render_block_inactive_apply_0954H.json",
+  "source_contract": "compatibility/card_updates/legacy_card_updates_to_art_render_block_contract_0954G.json",
+  "source_topic_context": "subject_packs/art/topic_contexts/qinglv_china_color_topic_context_0954E.json",
+  "compatibility_runtime_imported": false,
+  "provider_called": false,
+  "endpoint_created": false,
+  "memory_read": false,
+  "memory_write": false,
+  "feishu_writeback": false,
+  "formal_scoring": false,
+  "formal_export": false,
+  "seal_allowed": false,
+  "render_block_counts": {
+    "legacy_card_block": 12,
+    "candidate_patch_block": 1,
+    "review_gate_block": 1,
+    "status_summary_block": 1
+  },
+  "actions_policy": "inert_descriptors_only"
+}

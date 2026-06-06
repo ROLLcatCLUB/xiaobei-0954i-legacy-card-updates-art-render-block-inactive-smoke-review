@@ -1,0 +1,1295 @@
+{
+  "stage_id": "0954H_LEGACY_CARD_UPDATES_ART_RENDER_BLOCK_INACTIVE_APPLY",
+  "stage_type": "legacy_card_updates_art_render_block_inactive_apply_only",
+  "previous_stage": "0954G_LEGACY_CARD_UPDATES_TO_ART_RENDER_BLOCK_COMPATIBILITY_CONTRACT",
+  "previous_status": "LEGACY_CARD_UPDATES_ART_RENDER_BLOCK_COMPAT_CONTRACT_PASS",
+  "asset_type": "inactive_compatibility_apply_asset",
+  "source_contract": "compatibility/card_updates/legacy_card_updates_to_art_render_block_contract_0954G.json",
+  "source_sample": "compatibility/card_updates/legacy_card_updates_sample_output_0954G.json",
+  "compatibility_runtime_imported": false,
+  "component_grid_behavior_changed": false,
+  "provider_called": false,
+  "endpoint_created": false,
+  "memory_read": false,
+  "memory_write": false,
+  "feishu_writeback": false,
+  "formal_scoring": false,
+  "formal_export": false,
+  "server_deploy": false,
+  "seal_performed": false,
+  "seal_allowed": false,
+  "legacy_0952f_files_moved": false,
+  "legacy_0952g_files_moved": false,
+  "legacy_card_block_compatibility_only": true,
+  "new_platform_core_prefers_finer_grained_blocks": true,
+  "render_block_schema": "platform_core/render_blocks/render_block_type_schema_0954C.json",
+  "art_topic_context": "subject_packs/art/topic_contexts/qinglv_china_color_topic_context_0954E.json",
+  "legacy_card_blocks": [
+    {
+      "block_id": "topic_understanding",
+      "block_type": "legacy_card_block",
+      "title": "课题理解",
+      "content": {
+        "summary": "苏少版三年级美术《青绿中国色》，40分钟，综合·探索课型。",
+        "editable_fields": [
+          "教材版本",
+          "课题",
+          "课时",
+          "课型",
+          "授课班级",
+          "公开课要求"
+        ]
+      },
+      "source": {
+        "from": "二次修订版 header / 教材版本 / 课时时长 / 课型",
+        "legacy_stage": "0952F_R1"
+      },
+      "status": "needs_confirmation",
+      "actions": [
+        {
+          "action_id": "inert_采纳",
+          "label": "采纳",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_精修",
+          "label": "精修",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_追问",
+          "label": "追问",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_重生成",
+          "label": "重生成",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_锁定",
+          "label": "锁定",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_回填上下文",
+          "label": "回填上下文",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_标记为待确认",
+          "label": "标记为待确认",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_暂不采用",
+          "label": "暂不采用",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        }
+      ],
+      "safety": {
+        "raw_html_allowed": false,
+        "script_allowed": false,
+        "inline_event_handler_allowed": false,
+        "provider_call_allowed": false,
+        "backend_call_allowed": false,
+        "memory_write_allowed": false,
+        "feishu_writeback_allowed": false,
+        "formal_export_allowed": false,
+        "seal_allowed": false
+      },
+      "stage_id": "0954H_LEGACY_CARD_UPDATES_ART_RENDER_BLOCK_INACTIVE_APPLY",
+      "apply_state": "inactive_apply_asset",
+      "compatibility_runtime_imported": false,
+      "component_grid_behavior_changed": false,
+      "legacy_card_block_compatibility_only": true
+    },
+    {
+      "block_id": "teaching_objectives",
+      "block_type": "legacy_card_block",
+      "title": "教学目标",
+      "content": {
+        "summary": "目标包含颜色辨认、设色顺序、对比观察和传统色彩体验。",
+        "editable_fields": [
+          "目标维度",
+          "可观测动词",
+          "评价证据",
+          "课标对应"
+        ]
+      },
+      "source": {
+        "from": "教学目标",
+        "legacy_stage": "0952F_R1"
+      },
+      "status": "draft",
+      "actions": [
+        {
+          "action_id": "inert_采纳",
+          "label": "采纳",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_精修",
+          "label": "精修",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_追问",
+          "label": "追问",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_重生成",
+          "label": "重生成",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_锁定",
+          "label": "锁定",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_回填上下文",
+          "label": "回填上下文",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_标记为待确认",
+          "label": "标记为待确认",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_暂不采用",
+          "label": "暂不采用",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        }
+      ],
+      "safety": {
+        "raw_html_allowed": false,
+        "script_allowed": false,
+        "inline_event_handler_allowed": false,
+        "provider_call_allowed": false,
+        "backend_call_allowed": false,
+        "memory_write_allowed": false,
+        "feishu_writeback_allowed": false,
+        "formal_export_allowed": false,
+        "seal_allowed": false
+      },
+      "stage_id": "0954H_LEGACY_CARD_UPDATES_ART_RENDER_BLOCK_INACTIVE_APPLY",
+      "apply_state": "inactive_apply_asset",
+      "compatibility_runtime_imported": false,
+      "component_grid_behavior_changed": false,
+      "legacy_card_block_compatibility_only": true
+    },
+    {
+      "block_id": "key_difficult_points",
+      "block_type": "legacy_card_block",
+      "title": "重难点",
+      "content": {
+        "summary": "重点是颜色辨识和远山淡近山浓；难点是分层设色顺序和迁移实践。",
+        "editable_fields": [
+          "教学重点",
+          "教学难点",
+          "突破策略"
+        ]
+      },
+      "source": {
+        "from": "教学重难点",
+        "legacy_stage": "0952F_R1"
+      },
+      "status": "draft",
+      "actions": [
+        {
+          "action_id": "inert_采纳",
+          "label": "采纳",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_精修",
+          "label": "精修",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_追问",
+          "label": "追问",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_重生成",
+          "label": "重生成",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_锁定",
+          "label": "锁定",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_回填上下文",
+          "label": "回填上下文",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_标记为待确认",
+          "label": "标记为待确认",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_暂不采用",
+          "label": "暂不采用",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        }
+      ],
+      "safety": {
+        "raw_html_allowed": false,
+        "script_allowed": false,
+        "inline_event_handler_allowed": false,
+        "provider_call_allowed": false,
+        "backend_call_allowed": false,
+        "memory_write_allowed": false,
+        "feishu_writeback_allowed": false,
+        "formal_export_allowed": false,
+        "seal_allowed": false
+      },
+      "stage_id": "0954H_LEGACY_CARD_UPDATES_ART_RENDER_BLOCK_INACTIVE_APPLY",
+      "apply_state": "inactive_apply_asset",
+      "compatibility_runtime_imported": false,
+      "component_grid_behavior_changed": false,
+      "legacy_card_block_compatibility_only": true
+    },
+    {
+      "block_id": "qinglv_color_rule",
+      "block_type": "legacy_card_block",
+      "title": "青绿设色规律",
+      "content": {
+        "summary": "当前规则是远山淡、近山浓，以及赭石打底、石绿罩染、石青点染、藤黄提亮。",
+        "editable_fields": [
+          "色彩规律",
+          "材料依据",
+          "示范步骤",
+          "学生可理解口诀"
+        ]
+      },
+      "source": {
+        "from": "教学目标 / 教学重难点 / 课堂流程",
+        "legacy_stage": "0952F_R1"
+      },
+      "status": "needs_confirmation",
+      "actions": [
+        {
+          "action_id": "inert_采纳",
+          "label": "采纳",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_精修",
+          "label": "精修",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_追问",
+          "label": "追问",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_重生成",
+          "label": "重生成",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_锁定",
+          "label": "锁定",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_回填上下文",
+          "label": "回填上下文",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_标记为待确认",
+          "label": "标记为待确认",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_暂不采用",
+          "label": "暂不采用",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        }
+      ],
+      "safety": {
+        "raw_html_allowed": false,
+        "script_allowed": false,
+        "inline_event_handler_allowed": false,
+        "provider_call_allowed": false,
+        "backend_call_allowed": false,
+        "memory_write_allowed": false,
+        "feishu_writeback_allowed": false,
+        "formal_export_allowed": false,
+        "seal_allowed": false
+      },
+      "stage_id": "0954H_LEGACY_CARD_UPDATES_ART_RENDER_BLOCK_INACTIVE_APPLY",
+      "apply_state": "inactive_apply_asset",
+      "compatibility_runtime_imported": false,
+      "component_grid_behavior_changed": false,
+      "legacy_card_block_compatibility_only": true
+    },
+    {
+      "block_id": "classroom_flow",
+      "block_type": "legacy_card_block",
+      "title": "课堂流程",
+      "content": {
+        "summary": "6个环节：导入、认识矿物色、探究规律、示范、创作、展示评价。",
+        "editable_fields": [
+          "环节名称",
+          "时间",
+          "教师行为",
+          "学生活动",
+          "系统支持"
+        ]
+      },
+      "source": {
+        "from": "课堂流程",
+        "legacy_stage": "0952F_R1"
+      },
+      "status": "draft",
+      "actions": [
+        {
+          "action_id": "inert_采纳",
+          "label": "采纳",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_精修",
+          "label": "精修",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_追问",
+          "label": "追问",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_重生成",
+          "label": "重生成",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_锁定",
+          "label": "锁定",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_回填上下文",
+          "label": "回填上下文",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_标记为待确认",
+          "label": "标记为待确认",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_暂不采用",
+          "label": "暂不采用",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        }
+      ],
+      "safety": {
+        "raw_html_allowed": false,
+        "script_allowed": false,
+        "inline_event_handler_allowed": false,
+        "provider_call_allowed": false,
+        "backend_call_allowed": false,
+        "memory_write_allowed": false,
+        "feishu_writeback_allowed": false,
+        "formal_export_allowed": false,
+        "seal_allowed": false
+      },
+      "stage_id": "0954H_LEGACY_CARD_UPDATES_ART_RENDER_BLOCK_INACTIVE_APPLY",
+      "apply_state": "inactive_apply_asset",
+      "compatibility_runtime_imported": false,
+      "component_grid_behavior_changed": false,
+      "legacy_card_block_compatibility_only": true
+    },
+    {
+      "block_id": "teacher_questions",
+      "block_type": "legacy_card_block",
+      "title": "教师关键提问",
+      "content": {
+        "summary": "包含主色调、远近颜色、点缀色、设色顺序和作品反思等6个问题。",
+        "editable_fields": [
+          "问题文本",
+          "追问层级",
+          "对应环节",
+          "预期学生回答"
+        ]
+      },
+      "source": {
+        "from": "教师关键提问",
+        "legacy_stage": "0952F_R1"
+      },
+      "status": "draft",
+      "actions": [
+        {
+          "action_id": "inert_采纳",
+          "label": "采纳",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_精修",
+          "label": "精修",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_追问",
+          "label": "追问",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_重生成",
+          "label": "重生成",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_锁定",
+          "label": "锁定",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_回填上下文",
+          "label": "回填上下文",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_标记为待确认",
+          "label": "标记为待确认",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_暂不采用",
+          "label": "暂不采用",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        }
+      ],
+      "safety": {
+        "raw_html_allowed": false,
+        "script_allowed": false,
+        "inline_event_handler_allowed": false,
+        "provider_call_allowed": false,
+        "backend_call_allowed": false,
+        "memory_write_allowed": false,
+        "feishu_writeback_allowed": false,
+        "formal_export_allowed": false,
+        "seal_allowed": false
+      },
+      "stage_id": "0954H_LEGACY_CARD_UPDATES_ART_RENDER_BLOCK_INACTIVE_APPLY",
+      "apply_state": "inactive_apply_asset",
+      "compatibility_runtime_imported": false,
+      "component_grid_behavior_changed": false,
+      "legacy_card_block_compatibility_only": true
+    },
+    {
+      "block_id": "student_activities",
+      "block_type": "legacy_card_block",
+      "title": "学生活动",
+      "content": {
+        "summary": "活动包括颜色连连看、色彩观察记录、口诀判断、分层设色创作、一赞一问互评。",
+        "editable_fields": [
+          "活动名称",
+          "材料",
+          "分组方式",
+          "完成标准",
+          "系统入口"
+        ]
+      },
+      "source": {
+        "from": "学生活动",
+        "legacy_stage": "0952F_R1"
+      },
+      "status": "draft",
+      "actions": [
+        {
+          "action_id": "inert_采纳",
+          "label": "采纳",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_精修",
+          "label": "精修",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_追问",
+          "label": "追问",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_重生成",
+          "label": "重生成",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_锁定",
+          "label": "锁定",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_回填上下文",
+          "label": "回填上下文",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_标记为待确认",
+          "label": "标记为待确认",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_暂不采用",
+          "label": "暂不采用",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        }
+      ],
+      "safety": {
+        "raw_html_allowed": false,
+        "script_allowed": false,
+        "inline_event_handler_allowed": false,
+        "provider_call_allowed": false,
+        "backend_call_allowed": false,
+        "memory_write_allowed": false,
+        "feishu_writeback_allowed": false,
+        "formal_export_allowed": false,
+        "seal_allowed": false
+      },
+      "stage_id": "0954H_LEGACY_CARD_UPDATES_ART_RENDER_BLOCK_INACTIVE_APPLY",
+      "apply_state": "inactive_apply_asset",
+      "compatibility_runtime_imported": false,
+      "component_grid_behavior_changed": false,
+      "legacy_card_block_compatibility_only": true
+    },
+    {
+      "block_id": "board_screen_design",
+      "block_type": "legacy_card_block",
+      "title": "板书 / 大屏设计",
+      "content": {
+        "summary": "板书聚焦三种颜色、远近规律和设色顺序；大屏包含课题、颜料、长卷、局部对比、步骤和评价示例。",
+        "editable_fields": [
+          "板书布局",
+          "大屏页码",
+          "图片素材",
+          "是否生成PPT"
+        ]
+      },
+      "source": {
+        "from": "板书/大屏设计",
+        "legacy_stage": "0952F_R1"
+      },
+      "status": "needs_confirmation",
+      "actions": [
+        {
+          "action_id": "inert_采纳",
+          "label": "采纳",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_精修",
+          "label": "精修",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_追问",
+          "label": "追问",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_重生成",
+          "label": "重生成",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_锁定",
+          "label": "锁定",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_回填上下文",
+          "label": "回填上下文",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_标记为待确认",
+          "label": "标记为待确认",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_暂不采用",
+          "label": "暂不采用",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        }
+      ],
+      "safety": {
+        "raw_html_allowed": false,
+        "script_allowed": false,
+        "inline_event_handler_allowed": false,
+        "provider_call_allowed": false,
+        "backend_call_allowed": false,
+        "memory_write_allowed": false,
+        "feishu_writeback_allowed": false,
+        "formal_export_allowed": false,
+        "seal_allowed": false
+      },
+      "stage_id": "0954H_LEGACY_CARD_UPDATES_ART_RENDER_BLOCK_INACTIVE_APPLY",
+      "apply_state": "inactive_apply_asset",
+      "compatibility_runtime_imported": false,
+      "component_grid_behavior_changed": false,
+      "legacy_card_block_compatibility_only": true
+    },
+    {
+      "block_id": "evaluation_design",
+      "block_type": "legacy_card_block",
+      "title": "评价方式",
+      "content": {
+        "summary": "包含过程性观察量表、作品等级标准和学生自评栏。",
+        "editable_fields": [
+          "观察点",
+          "等级标准",
+          "自评栏",
+          "互评方式",
+          "是否接过程性评价"
+        ]
+      },
+      "source": {
+        "from": "评价方式",
+        "legacy_stage": "0952F_R1"
+      },
+      "status": "draft",
+      "actions": [
+        {
+          "action_id": "inert_采纳",
+          "label": "采纳",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_精修",
+          "label": "精修",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_追问",
+          "label": "追问",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_重生成",
+          "label": "重生成",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_锁定",
+          "label": "锁定",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_回填上下文",
+          "label": "回填上下文",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_标记为待确认",
+          "label": "标记为待确认",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_暂不采用",
+          "label": "暂不采用",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        }
+      ],
+      "safety": {
+        "raw_html_allowed": false,
+        "script_allowed": false,
+        "inline_event_handler_allowed": false,
+        "provider_call_allowed": false,
+        "backend_call_allowed": false,
+        "memory_write_allowed": false,
+        "feishu_writeback_allowed": false,
+        "formal_export_allowed": false,
+        "seal_allowed": false
+      },
+      "stage_id": "0954H_LEGACY_CARD_UPDATES_ART_RENDER_BLOCK_INACTIVE_APPLY",
+      "apply_state": "inactive_apply_asset",
+      "compatibility_runtime_imported": false,
+      "component_grid_behavior_changed": false,
+      "legacy_card_block_compatibility_only": true
+    },
+    {
+      "block_id": "risks_adjustments",
+      "block_type": "legacy_card_block",
+      "title": "风险与调整",
+      "content": {
+        "summary": "覆盖颜色混淆、时间不足、操作顺序、颜料蘸取、多媒体故障等课堂风险。",
+        "editable_fields": [
+          "问题",
+          "调整策略",
+          "备选材料",
+          "课前准备"
+        ]
+      },
+      "source": {
+        "from": "可能问题与调整",
+        "legacy_stage": "0952F_R1"
+      },
+      "status": "draft",
+      "actions": [
+        {
+          "action_id": "inert_采纳",
+          "label": "采纳",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_精修",
+          "label": "精修",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_追问",
+          "label": "追问",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_重生成",
+          "label": "重生成",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_锁定",
+          "label": "锁定",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_回填上下文",
+          "label": "回填上下文",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_标记为待确认",
+          "label": "标记为待确认",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_暂不采用",
+          "label": "暂不采用",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        }
+      ],
+      "safety": {
+        "raw_html_allowed": false,
+        "script_allowed": false,
+        "inline_event_handler_allowed": false,
+        "provider_call_allowed": false,
+        "backend_call_allowed": false,
+        "memory_write_allowed": false,
+        "feishu_writeback_allowed": false,
+        "formal_export_allowed": false,
+        "seal_allowed": false
+      },
+      "stage_id": "0954H_LEGACY_CARD_UPDATES_ART_RENDER_BLOCK_INACTIVE_APPLY",
+      "apply_state": "inactive_apply_asset",
+      "compatibility_runtime_imported": false,
+      "component_grid_behavior_changed": false,
+      "legacy_card_block_compatibility_only": true
+    },
+    {
+      "block_id": "xiaobei_self_check",
+      "block_type": "legacy_card_block",
+      "title": "小备自查",
+      "content": {
+        "summary": "R2 自评认为目标可观测、流程可上课、提问有层次、评价形成闭环、风险策略清晰。",
+        "editable_fields": [
+          "自查项",
+          "证据",
+          "风险等级",
+          "待确认项"
+        ]
+      },
+      "source": {
+        "from": "质量自评 / agent_call_2_self_review",
+        "legacy_stage": "0952F_R1"
+      },
+      "status": "needs_confirmation",
+      "actions": [
+        {
+          "action_id": "inert_采纳",
+          "label": "采纳",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_精修",
+          "label": "精修",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_追问",
+          "label": "追问",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_重生成",
+          "label": "重生成",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_锁定",
+          "label": "锁定",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_回填上下文",
+          "label": "回填上下文",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_标记为待确认",
+          "label": "标记为待确认",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_暂不采用",
+          "label": "暂不采用",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        }
+      ],
+      "safety": {
+        "raw_html_allowed": false,
+        "script_allowed": false,
+        "inline_event_handler_allowed": false,
+        "provider_call_allowed": false,
+        "backend_call_allowed": false,
+        "memory_write_allowed": false,
+        "feishu_writeback_allowed": false,
+        "formal_export_allowed": false,
+        "seal_allowed": false
+      },
+      "stage_id": "0954H_LEGACY_CARD_UPDATES_ART_RENDER_BLOCK_INACTIVE_APPLY",
+      "apply_state": "inactive_apply_asset",
+      "compatibility_runtime_imported": false,
+      "component_grid_behavior_changed": false,
+      "legacy_card_block_compatibility_only": true
+    },
+    {
+      "block_id": "next_refinement",
+      "block_type": "legacy_card_block",
+      "title": "下一步精修建议",
+      "content": {
+        "summary": "建议录制示范微视频、设计分层任务、联动语文或历史拓展《千里江山图》文化背景。",
+        "editable_fields": [
+          "精修方向",
+          "优先级",
+          "需要的素材",
+          "是否生成配套物"
+        ]
+      },
+      "source": {
+        "from": "后续精修建议",
+        "legacy_stage": "0952F_R1"
+      },
+      "status": "draft",
+      "actions": [
+        {
+          "action_id": "inert_采纳",
+          "label": "采纳",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_精修",
+          "label": "精修",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_追问",
+          "label": "追问",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_重生成",
+          "label": "重生成",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_锁定",
+          "label": "锁定",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_回填上下文",
+          "label": "回填上下文",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_标记为待确认",
+          "label": "标记为待确认",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        },
+        {
+          "action_id": "inert_暂不采用",
+          "label": "暂不采用",
+          "enabled": false,
+          "inert_descriptor": true,
+          "executes_runtime": false
+        }
+      ],
+      "safety": {
+        "raw_html_allowed": false,
+        "script_allowed": false,
+        "inline_event_handler_allowed": false,
+        "provider_call_allowed": false,
+        "backend_call_allowed": false,
+        "memory_write_allowed": false,
+        "feishu_writeback_allowed": false,
+        "formal_export_allowed": false,
+        "seal_allowed": false
+      },
+      "stage_id": "0954H_LEGACY_CARD_UPDATES_ART_RENDER_BLOCK_INACTIVE_APPLY",
+      "apply_state": "inactive_apply_asset",
+      "compatibility_runtime_imported": false,
+      "component_grid_behavior_changed": false,
+      "legacy_card_block_compatibility_only": true
+    }
+  ],
+  "candidate_patch_block": {
+    "block_id": "provider-candidate-patch-0952G-R1-qinglv-color-rule",
+    "block_type": "candidate_patch_block",
+    "title": "青绿设色规律候选修改",
+    "content": {
+      "target_card_id": "qinglv_color_rule",
+      "target_card_title": "青绿设色规律",
+      "summary": "青绿设色可按“赭底石绿、石青点黄、远淡近浓”帮助三年级学生理解层次。",
+      "original_teacher_visible_text": "当前规则是远山淡、近山浓，以及赭石打底、石绿罩染、石青点染、藤黄提亮。",
+      "proposed_teacher_visible_text": "本课引导学生认识青绿山水的上色顺序：先用赭石淡淡铺底，再以石绿从远到近、由淡转浓地渲染，随后用石青轻轻点缀，最后用藤黄提亮。口诀：赭底石绿，石青点黄，远淡近浓记住它！",
+      "changed_fields": [
+        "teacher_visible_summary",
+        "色彩规律",
+        "学生可理解口诀"
+      ],
+      "teacher_instruction_summary": "面向三年级学生精修青绿设色规律，突出石青、石绿、藤黄、赭石分布节奏和记忆口诀。"
+    },
+    "source": {
+      "legacy_stage": "0952G_R1",
+      "provider_called_in_source_fixture": true,
+      "provider_called_in_0954G": false,
+      "provider_called_in_0954H": false
+    },
+    "status": "candidate_requires_teacher_confirmation",
+    "actions": [
+      {
+        "action_id": "inert_accept_candidate",
+        "label": "accept_candidate",
+        "enabled": false,
+        "inert_descriptor": true,
+        "executes_runtime": false
+      },
+      {
+        "action_id": "inert_reject_candidate",
+        "label": "reject_candidate",
+        "enabled": false,
+        "inert_descriptor": true,
+        "executes_runtime": false
+      },
+      {
+        "action_id": "inert_keep_for_review",
+        "label": "keep_for_review",
+        "enabled": false,
+        "inert_descriptor": true,
+        "executes_runtime": false
+      }
+    ],
+    "safety": {
+      "raw_html_allowed": false,
+      "script_allowed": false,
+      "inline_event_handler_allowed": false,
+      "provider_call_allowed": false,
+      "backend_call_allowed": false,
+      "memory_write_allowed": false,
+      "feishu_writeback_allowed": false,
+      "formal_export_allowed": false,
+      "seal_allowed": false
+    },
+    "stage_id": "0954H_LEGACY_CARD_UPDATES_ART_RENDER_BLOCK_INACTIVE_APPLY",
+    "apply_state": "inactive_apply_asset",
+    "compatibility_runtime_imported": false,
+    "component_grid_behavior_changed": false
+  },
+  "review_gate_block": {
+    "block_id": "review_gate_qinglv_color_rule_0954G",
+    "block_type": "review_gate_block",
+    "title": "教师确认门",
+    "content": {
+      "teacher_confirmation_required": true,
+      "target_card_id": "qinglv_color_rule",
+      "candidate_patch_id": "provider-candidate-patch-0952G-R1-qinglv-color-rule",
+      "runtime_apply_allowed": false
+    },
+    "source": {
+      "legacy_stage": "0952G_R1"
+    },
+    "status": "inactive_review_gate",
+    "actions": [
+      {
+        "action_id": "inert_mark_ready_for_inactive_apply_review",
+        "label": "mark_ready_for_inactive_apply_review",
+        "enabled": false,
+        "inert_descriptor": true,
+        "executes_runtime": false
+      }
+    ],
+    "safety": {
+      "raw_html_allowed": false,
+      "script_allowed": false,
+      "inline_event_handler_allowed": false,
+      "provider_call_allowed": false,
+      "backend_call_allowed": false,
+      "memory_write_allowed": false,
+      "feishu_writeback_allowed": false,
+      "formal_export_allowed": false,
+      "seal_allowed": false
+    },
+    "stage_id": "0954H_LEGACY_CARD_UPDATES_ART_RENDER_BLOCK_INACTIVE_APPLY",
+    "apply_state": "inactive_apply_asset",
+    "compatibility_runtime_imported": false,
+    "component_grid_behavior_changed": false
+  },
+  "status_summary_block": {
+    "block_id": "legacy_card_updates_status_summary_0954G",
+    "block_type": "status_summary_block",
+    "title": "0952F/0952G 兼容状态摘要",
+    "content": {
+      "legacy_card_block_count": 12,
+      "candidate_patch_block_count": 1,
+      "review_gate_block_count": 1,
+      "needs_confirmation_count": 4,
+      "compatibility_runtime_imported": false,
+      "status_summary_block_count": 1,
+      "inactive_art_render_plan_count": 1,
+      "component_grid_behavior_changed": false
+    },
+    "source": {
+      "legacy_stage": "0952F_R1 + 0952G_R1"
+    },
+    "status": "contract_sample_only",
+    "actions": [],
+    "safety": {
+      "raw_html_allowed": false,
+      "script_allowed": false,
+      "inline_event_handler_allowed": false,
+      "provider_call_allowed": false,
+      "backend_call_allowed": false,
+      "memory_write_allowed": false,
+      "feishu_writeback_allowed": false,
+      "formal_export_allowed": false,
+      "seal_allowed": false
+    },
+    "stage_id": "0954H_LEGACY_CARD_UPDATES_ART_RENDER_BLOCK_INACTIVE_APPLY",
+    "apply_state": "inactive_apply_asset"
+  },
+  "safety_rules": {
+    "raw_html_allowed": false,
+    "script_allowed": false,
+    "inline_event_handler_allowed": false,
+    "provider_call_allowed": false,
+    "backend_call_allowed": false,
+    "memory_write_allowed": false,
+    "feishu_writeback_allowed": false,
+    "formal_export_allowed": false,
+    "seal_allowed": false
+  }
+}
